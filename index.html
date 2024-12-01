@@ -3,49 +3,232 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button Links with CSS</title>
+    <title>Pricing Plans</title>
     <style>
         body {
+            background-image: url('https://picjj.com/images/2024/11/15/Wk8L1r.gif');
+            color: #fff;
             font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px white;
+            overflow-y: auto;
+            position: relative;
+        }
+        .plan {
+            background-color: transparent;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            margin: 15px;
             text-align: center;
-            margin: 50px;
-            background-color: #222;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px white;
+            overflow-y: auto;
+            position: relative;
         }
-        h1 {
-            color: #333;
+        .plan h2 {
+            color: #4e73df;
+            margin-bottom: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px white;
+            overflow-y: auto;
+            position: relative;
         }
-        button {
-            background-color: #007bff;
-            color: white;
-            padding: 15px 30px;
-            margin: 10px;
+        .price {
+            background-color: transparent;
+            padding: 10px;
+            font-size: 24px;
+            color: #f0f0f0;
+            margin: 15px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px white;
+            overflow-y: auto;
+            position: relative;
+        }
+        .features {
+            margin: 10px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px white;
+            overflow-y: auto;
+            position: relative;
+        }
+        .features .disabled {
+            text-decoration: line-through;
+            color: #888;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px white;
+            overflow-y: auto;
+            position: relative;
+        }
+        .purchase-btn {
+            background-color: transparent;
+            color: #fff;
+            padding: 10px 20px;
             border: none;
             border-radius: 5px;
             font-size: 16px;
             cursor: pointer;
-            transition: background-color 0.3s ease;
+            text-decoration: none;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            box-shadow: 0 0 15px #222;
+            box-shadow: 0 0 15px white;
             overflow-y: auto;
             position: relative;
         }
-        button:hover {
-            background-color: #0056b3;
+        .purchase-btn:hover {
+            background-color: #365ebf;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px white;
+            overflow-y: auto;
+            position: relative;
+          
         }
-        .whatsapp {
-            background-color: #25d366;
+        .plan img {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          margin-bottom: 10px;
         }
-        .whatsapp:hover {
-            background-color: #1da851;
+                .features {
+                  margin: 10px 0;
+                }
+        .header {
+            background-color: transparent;
+            padding: 20px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            width: 90%; /* Increased width for a longer box */
+            margin-bottom: 30px;
+            box-shadow: 0 0 15px white;
+            justify-content: flex-start; /* Align items to the start */
+        }
+        .header img {
+            width: 150px; /* Increased size */
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 30px; /* Added space between image and text */
+        }
+        .header .info {
+            font-size: 20px; /* Slightly larger font size */
+            color: #f0f0f0;
+            line-height: 2; /* Increased line height for better readability */
+        }
+        .header .info span {
+            font-weight: bold;
+            color: #4e73df;
+        }
+                .back-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: transparent;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px cyan;
+            overflow-y: auto;
+            position: relative;
+          
+        }
+        .back-button:hover {
+            background-color: cyan;
         }
     </style>
 </head>
 <body>
-    <h1 class="mb-3" style="color: cyan;">ᴄʜᴏᴏꜱᴇ ᴏᴘꜱᴛɪᴏɴ</h1>
-      <button onclick="window.open('https://www.facebook.com', '_blank')">ɢᴏ ʙᴀᴄᴋ</button>
-    <button onclick="window.open('https://www.facebook.com', '_blank')">ʜᴀᴄᴋ ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴅ</button>
-    <button class="whatsapp" onclick="window.open('https://wa.me/917318018572', '_blank')">ᴘᴜʀᴄʜᴇꜱᴇ ᴄᴏɴᴛᴇᴄᴛ ᴀᴅᴍɪɴ</button>
-        <h1 class="mb-3" style="color: cyan;">ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴅ ᴋᴀʀɴᴇ ᴋᴇ ʟɪʏᴇ ᴘᴀꜱꜱᴡᴏʀᴅ ᴋɪ ᴊᴀʀᴜʀᴛ ᴘᴀᴅᴇɢɪ ᴘᴜʀᴄʜᴇꜱᴇ ᴋᴀʀ ʟᴇ ᴘᴀꜱꜱᴡᴏʀᴅ ᴀᴅᴍɪɴ ꜱᴇ ᴍɪʟ ᴊᴀʏᴇɢᴀ ? </h1>
+
+    <!-- Header with Profile, Name, Bio, and Developer -->
+    <div class="header">
+      <img src="https://i.ibb.co/DrGgD0Z/50894529e2643cf797e68819bf14ddfb.jpg" alt="Profile Picture">
+      <div class="info">
+        <p><span>ɴᴀᴍᴇ:</span>  ᴀʙʜɪ ʏᴀᴅᴀᴠ</p>
+        <p><span>ʙɪᴏ:</span> हिंदू युवा सेना
+𝐓𝐞𝐚𝐦 __ 585 :3)'
+
+⟶🧡__सनातनी___ 🦋🔐☘️
+
+° ¬ 𝐊ı𝐬ıı𝐰 𝐤ıı 𝐉αα𝐧 𝐧α𝐡ıı 🙂 </p>
+        <p><span>ᴅᴇᴠᴇʟᴏᴘᴇʀ:</span> ᴀʙʜɪ - xᴅ</p>
+      </div>
+    </div>
     
+    <div class="plan">
+              <img src="https://i.ibb.co/DrGgD0Z/50894529e2643cf797e68819bf14ddfb.jpg" alt="Profile Picture">
+        <h2>ɢᴀʟʟᴇʀʏ ʜᴀᴄᴋ</h2>
+        <p>ɪɴᴅɪᴀɴ ʙᴏʏ</p>
+        <div class="price" class="price" class="mb-3" style="color: red;">₹ 100</div>
+        <div class="features">
+            <p class="mb-3" style="color: cyan;">ᴘᴀʜʟᴇ ᴅᴇᴍᴏ ʟᴏ ꜰɪʀ ʙᴜʏ ᴋᴀʀᴏ 100% ᴡᴏʀᴋɪɴɢ</p>
+            <p class="disabled">Premium Support 👑</p>
+            <p class="disabled">Premium Node 🚀</p>
+        </div>
+        <a href="window.open('https://wa.me/917318018572', '_blank')" class="purchase-btn"class="mb-3" style="color: cyan;"> ᴘᴜʀᴄʜᴇꜱᴇ</a>
+    </div>
+
+    <div class="plan">
+                    <img src="https://i.ibb.co/DrGgD0Z/50894529e2643cf797e68819bf14ddfb.jpg" alt="Profile Picture">
+        <h2>ꜱᴍꜱ ʜᴀᴄᴋ</h2>
+                    
+        <div class="price" class="price" class="mb-3" style="color: red;">₹ 50</div>
+        <div class="features">
+            <p class="mb-3" style="color: cyan;">ᴠɪᴄᴛɪᴍꜱ ᴋᴇ ᴀʟʟ ꜱᴍꜱ ʜᴀᴄᴋ ᴋᴀʀ ꜱᴀᴋᴛᴇ ʜᴏ ꜰᴜʟʟ ɢᴀʀɴᴛɪ 100%  / ᴏᴛᴘ ʙᴀɪᴘᴀꜱ 🤖</p>
+            <p class="disabled">Premium Support 👑</p>
+                        <p class="disabled">Premium Node 🚀</p>
+        </div>
+        <a href="https://wa.me/917318018572?text=I%20want%20to%20purchase%20the%20Classic%20Pack" class="purchase-btn"class="mb-3" style="color: cyan;">ᴘᴜʀᴄʜᴇꜱᴇ</a>
+    </div>
+
+    <div class="plan">
+                    <img src="https://i.ibb.co/DrGgD0Z/50894529e2643cf797e68819bf14ddfb.jpg" alt="Profile Picture">
+        <h2>ꜰʀᴇᴇ ꜰɪʀᴇ ʜᴀᴄᴋ </h2>
+        
+        <div class="price" class="mb-3" style="color: red;">₹ 200 </div>
+        <div class="features">
+            <p class="mb-3" style="color: cyan;">ᴀɴᴛɪʙᴀɴ ʜᴀᴄᴋ 🤖</p>
+            <p class="mb-3" style="color: cyan;">ʀɪʏᴀʟ ɪᴅ ꜰᴜʟʟ ꜱᴇꜰ 👑</p>
+            <p class="mb-3" style="color: cyan;">ᴜɴʟɪᴍᴛᴇᴅꜱ ᴍᴀᴛᴄʜ ᴋʜᴇʟ ꜱᴀᴋᴛᴇ ʜᴏ🚀</p>
+        </div>
+        <a href="https://wa.me/917318018572?text=I%20want%20to%20purchase%20the%20Boost%20Pack" class="purchase-btn"class="mb-3" style="color: cyan;">ᴘᴜʀᴄʜᴇꜱᴇ</a>
+    </div>
+    
+        <div class="plan">
+                        <img src="https://i.ibb.co/DrGgD0Z/50894529e2643cf797e68819bf14ddfb.jpg" alt="Profile Picture">
+          <h2>ᴀɴᴅʀᴏɪᴅ ʜᴀᴄᴋ ʀᴀᴛ</h2>
+          
+        <div class="price" class="price" class="mb-3" style="color: red;">₹ 100</div>
+          <div class="features">
+            <p class="mb-3" style="color: cyan;"> ᴅᴜᴍᴘ ᴀʟʟ ᴄᴏɴᴛᴇᴄᴛ / ᴅᴜᴍ ᴀʟʟ ᴍᴇꜱꜱᴀʜᴇ 🤖</p>
+            <p class="mb-3" style="color: cyan;">ᴅᴜᴍᴘ ᴀʟʟ ɢᴀᴍᴀɪʟ /ᴅᴜᴍᴘ ᴀʟʟ ᴀᴘᴘꜱ ɴᴀᴍᴇ 👑</p>
+            <p class="mb-3" style="color: cyan;">ᴅᴜᴍᴘ ɪᴘ ᴀᴅʀᴇꜱꜱ 🚀</p>
+          </div>
+          <a href="https://wa.me/917318018572?text=I%20want%20to%20purchase%20the%20Boost%20Pack" class="purchase-btn"class="mb-3" style="color: cyan;">ᴘᴜʀᴄʜᴇꜱᴇ</a>
+        </div>  
+        
+            <div class="plan">
+                            <img src="https://i.ibb.co/DrGgD0Z/50894529e2643cf797e68819bf14ddfb.jpg" alt="Profile Picture">
+              <h2>ᴀɴᴅʀᴏɪᴅ ᴄᴏɴᴛʀᴏʟ ʜᴀᴄᴋ</h2>
+              
+        <div class="price" class="price" class="mb-3" style="color: red;">₹ 2500</div>
+              <div class="features">
+                <p class="mb-3" style="color: cyan;">ᴘᴜʀᴀ ᴘʜᴏɴ ᴄᴏɴᴛʀᴏʟ 🤖</p>
+                <p class="mb-3" style="color: cyan;">ᴀʟʟ ꜰᴇᴀᴜᴛᴜʀᴇ ᴄᴏɴᴛʀᴏʟ 👑</p>
+                <p class="mb-3" style="color: cyan;"> ᴀᴄᴄᴇꜱꜱ ᴀɴᴅʀᴏɪᴅ 🚀</p>
+              </div>
+              <a href="https://wa.me/917318018572?text=I%20want%20to%20purchase%20the%20Boost%20Pack" class="purchase-btn"class="mb-3" style="color: cyan;">ᴘᴜʀᴄʜᴇꜱᴇ</a>
+            </div>
+            
+            
+                           <!-- GO BACK BUTTON -->
+                           
+                           
+            <a href="your-link-here.html" class="back-button"class="mb-3" style="color: red;">ɢᴏ ʙᴀᴄᴋ</a>
 </body>
 </html>
